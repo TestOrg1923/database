@@ -8,6 +8,7 @@ metadata:
     - backend
   annotations:
     sonarqube.org/project-key: TestOrg1923_repo_AYLt_lGppl-OSC-IurYj
+    jira/project-key: SSP
 spec:
   type: service
   lifecycle: production
