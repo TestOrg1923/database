@@ -7,7 +7,7 @@ metadata:
     - nodejs
     - backend
   annotations:
-    sonarqube.org/project-key: TestOrg1923_repo
+    sonarqube.org/project-key: sqp_816f665d926716ffdabc971b75d36320e7f81e00
 spec:
   type: service
   lifecycle: production
