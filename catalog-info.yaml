@@ -6,6 +6,8 @@ metadata:
   tags:
     - nodejs
     - backend
+  annotations:
+    sonarqube.org/project-key: TestOrg1923_repo_AYLt_lGppl-OSC-IurYj
 spec:
   type: service
   lifecycle: production
