@@ -4,12 +4,16 @@ metadata:
   name: service
   description: This is a demo service
   tags:
-    - nodejs
-    - backend
+    - java
+    - spring
   annotations:
     sonarqube.org/project-key: testorg1923/TestOrg1923_repo
-    jira/project-key: SSP
+    backstage.io/kubernetes-id: database
 spec:
   type: service
   lifecycle: production
   owner: team
+  system: Multifornecedor
+  dependsOn:
+    - resource:CosmosDB
+    
