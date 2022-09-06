@@ -10,7 +10,7 @@ metadata:
     sonarqube.org/project-key: testorg1923/TestOrg1923_repo
     backstage.io/kubernetes-id: database
     github.com/project-slug: TestOrg1923/repo
-    goharbor.io/repository-slug: briandesousa/backstage-sample-service
+    goharbor.io/repository-slug: stefanprodan-podinfo-clone/podinfo
 spec:
   type: service
   lifecycle: production
