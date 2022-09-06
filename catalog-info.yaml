@@ -1,14 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: service
+  name: database
   description: This is a demo service
   tags:
-    - nodejs
-    - backend
+    - java
+    - spring
   annotations:
-    sonarqube.org/project-key: TestOrg1923_repo_AYLt_lGppl-OSC-IurYj
+    sonarqube.org/project-key: testorg1923/TestOrg1923_repo
+    backstage.io/kubernetes-id: database
 spec:
   type: service
   lifecycle: production
   owner: team
+  system: Multifornecedor
+  dependsOn:
+    - resource:CosmosDB
+    
