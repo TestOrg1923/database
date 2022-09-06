@@ -9,6 +9,7 @@ metadata:
   annotations:
     sonarqube.org/project-key: testorg1923/TestOrg1923_repo
     backstage.io/kubernetes-id: database
+    github.com/project-slug: TestOrg1923/repo
 spec:
   type: service
   lifecycle: production
