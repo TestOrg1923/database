@@ -10,7 +10,7 @@ metadata:
     sonarqube.org/project-key: testorg1923/TestOrg1923_database
     backstage.io/kubernetes-id: database
     github.com/project-slug: TestOrg1923/database
-    goharbor.io/repository-slug: library
+    goharbor.io/repository-slug: inspection-demo/regression-issue-74839
 spec:
   type: service
   lifecycle: production
